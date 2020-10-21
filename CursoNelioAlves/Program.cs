@@ -1,4 +1,5 @@
 ﻿using CursoNelioAlves.ConstrutoresTHIS;
+using CursoNelioAlves.Enum;
 using CursoNelioAlves.Parte_7;
 using CursoNelioAlves.Parte_7._1;
 using System;
@@ -48,9 +49,17 @@ namespace CursoNelioAlves
             Console.WriteLine("Opção 36 : Vetor Challenger ");
             Console.WriteLine("Opção 38: Challneger Lista");
             Console.WriteLine("Opção 39: Challenger  Matriz");
+            Console.WriteLine("Opção 40: Exemplo  Switch Case");
+            Console.WriteLine("Opção 41: Funções String");
+            Console.WriteLine("Opção 42: Funções DateTime");
+            Console.WriteLine("Opção 43: Funções TimeSpan");
+            Console.WriteLine("Opção 44: Exemplo DateTime");
+            Console.WriteLine("Opção 45: Exemplo TimeSpan");
+            Console.WriteLine("Opção 46 : Enum");
 
             Console.WriteLine("\nOpção 100 : Sair");
 
+            Console.WriteLine("Digite uma opção válida");
             Console.Write("Digite a opão Desejada : ");
             opcao = int.Parse(Console.ReadLine());
 
@@ -99,6 +108,8 @@ namespace CursoNelioAlves
             if (opcao == 43) TimeSpanSimples.Executar();
             if (opcao == 44) ExercicioDateTime.Executar();
             if (opcao == 45) ExercicioTimeSpan.Executar();
+            if (opcao == 46) Order.Executar();
+
 
         }
     }
